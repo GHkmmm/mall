@@ -1,0 +1,131 @@
+Date : 2020-03-05 18:06:41
+Directory : /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src
+Total : 70 files,  2613 codes, 46 comments, 237 blanks, all 2896 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Vue.js     |         40 |      2,328 |         41 |        190 |      2,559 |
+| JavaScript |         15 |        267 |          5 |         47 |        319 |
+| XML        |         14 |         14 |          0 |          0 |         14 |
+| CSS        |          1 |          4 |          0 |          0 |          4 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                              | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                 |         70 |      2,613 |         46 |        237 |      2,896 |
+| assets                                                                                            |         15 |         18 |          0 |          0 |         18 |
+| assets/css                                                                                        |          1 |          4 |          0 |          0 |          4 |
+| assets/img                                                                                        |         14 |         14 |          0 |          0 |         14 |
+| assets/img/detail                                                                                 |          4 |          4 |          0 |          0 |          4 |
+| assets/img/home                                                                                   |          1 |          1 |          0 |          0 |          1 |
+| assets/img/shopcart                                                                               |          1 |          1 |          0 |          0 |          1 |
+| assets/img/tabbar                                                                                 |          8 |          8 |          0 |          0 |          8 |
+| common                                                                                            |          3 |         49 |          0 |          3 |         52 |
+| components                                                                                        |         17 |        685 |         14 |         74 |        773 |
+| components/common                                                                                 |         10 |        438 |         14 |         54 |        506 |
+| components/common/NavBar                                                                          |          1 |         26 |          0 |          3 |         29 |
+| components/common/Swiper                                                                          |          3 |        180 |          9 |         24 |        213 |
+| components/common/TabBar                                                                          |          2 |         70 |          0 |          5 |         75 |
+| components/common/grid                                                                            |          1 |         60 |          0 |          5 |         65 |
+| components/common/scroll                                                                          |          1 |         50 |          0 |          7 |         57 |
+| components/common/toast                                                                           |          2 |         52 |          5 |         10 |         67 |
+| components/content                                                                                |          7 |        247 |          0 |         20 |        267 |
+| components/content/backTop                                                                        |          1 |         22 |          0 |          2 |         24 |
+| components/content/checkbutton                                                                    |          1 |          8 |          0 |          5 |         13 |
+| components/content/goods                                                                          |          2 |        107 |          0 |          5 |        112 |
+| network                                                                                           |          4 |         98 |          0 |         14 |        112 |
+| router                                                                                            |          1 |         43 |          0 |          7 |         50 |
+| store                                                                                             |          4 |         48 |          0 |          9 |         57 |
+| views                                                                                             |         24 |      1,638 |         32 |        120 |      1,790 |
+| views/Class                                                                                       |          5 |        264 |          8 |         26 |        298 |
+| views/Class/childComps                                                                            |          4 |        154 |          0 |         12 |        166 |
+| views/Home                                                                                        |          4 |        246 |          7 |         27 |        280 |
+| views/Home/childComps                                                                             |          3 |         90 |          0 |          7 |         97 |
+| views/detail                                                                                      |          9 |        737 |         13 |         41 |        791 |
+| views/detail/childComps                                                                           |          8 |        558 |          0 |         22 |        580 |
+| views/profile                                                                                     |          2 |         54 |          0 |          7 |         61 |
+| views/profile/childComps                                                                          |          1 |         30 |          0 |          3 |         33 |
+| views/shopcart                                                                                    |          4 |        337 |          4 |         19 |        360 |
+| views/shopcart/childComps                                                                         |          3 |        303 |          4 |         16 |        323 |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                          | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/App.vue                                        | Vue.js     |         20 |          0 |          4 |         24 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/css/base.css                            | CSS        |          4 |          0 |          0 |          4 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/detail/back.svg                     | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/detail/dianpu.svg                   | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/detail/kefu.svg                     | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/detail/shoucang.svg                 | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/home/backtop.svg                    | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/shopcart/xuanze.svg                 | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/tabbar/fenleishouye.svg             | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/tabbar/gouwuche-2.svg               | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/tabbar/gouwuche.svg                 | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/tabbar/kinds.svg                    | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/tabbar/tabbarhome.svg               | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/tabbar/tabbarhomeselect.svg         | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/tabbar/wodedangxuan.svg             | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/assets/img/tabbar/xiazai4.svg                  | XML        |          1 |          0 |          0 |          1 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/common/const.js                                | JavaScript |          3 |          0 |          0 |          3 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/common/mixin.js                                | JavaScript |         24 |          0 |          1 |         25 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/common/util.js                                 | JavaScript |         22 |          0 |          2 |         24 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/common/NavBar/NavBar.vue            | Vue.js     |         26 |          0 |          3 |         29 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/common/Swiper/Swiper.vue            | Vue.js     |        156 |          9 |         20 |        185 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/common/Swiper/SwiperItem.vue        | Vue.js     |         19 |          0 |          3 |         22 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/common/Swiper/index.js              | JavaScript |          5 |          0 |          1 |          6 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/common/TabBar/TabBar.vue            | Vue.js     |         21 |          0 |          3 |         24 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/common/TabBar/TabBarItem.vue        | Vue.js     |         49 |          0 |          2 |         51 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/common/grid/GridView.vue            | Vue.js     |         60 |          0 |          5 |         65 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/common/scroll/Scroll.vue            | Vue.js     |         50 |          0 |          7 |         57 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/common/toast/Toast.vue              | Vue.js     |         42 |          0 |          3 |         45 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/common/toast/index.js               | JavaScript |         10 |          5 |          7 |         22 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/content/HomeNavBar.vue              | Vue.js     |         26 |          0 |          2 |         28 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/content/MainTabbar.vue              | Vue.js     |         36 |          0 |          4 |         40 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/content/TabControl.vue              | Vue.js     |         48 |          0 |          2 |         50 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/content/backTop/BackTop.vue         | Vue.js     |         22 |          0 |          2 |         24 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/content/checkbutton/CheckButton.vue | Vue.js     |          8 |          0 |          5 |         13 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/content/goods/GoodsList.vue         | Vue.js     |         30 |          0 |          3 |         33 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/components/content/goods/GoodsListitem.vue     | Vue.js     |         77 |          0 |          2 |         79 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/main.js                                        | JavaScript |         14 |          0 |          6 |         20 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/network/class.js                               | JavaScript |         23 |          0 |          3 |         26 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/network/detail.js                              | JavaScript |         42 |          0 |          5 |         47 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/network/home.js                                | JavaScript |         15 |          0 |          2 |         17 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/network/request.js                             | JavaScript |         18 |          0 |          4 |         22 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/router/index.js                                | JavaScript |         43 |          0 |          7 |         50 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/store/actions.js                               | JavaScript |         16 |          0 |          2 |         18 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/store/getters.js                               | JavaScript |          6 |          0 |          1 |          7 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/store/index.js                                 | JavaScript |         16 |          0 |          5 |         21 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/store/mutations.js                             | JavaScript |         10 |          0 |          1 |         11 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/Class/Class.vue                          | Vue.js     |        110 |          8 |         14 |        132 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/Class/childComps/ClassNavBar.vue         | Vue.js     |         25 |          0 |          3 |         28 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/Class/childComps/TabContent.vue          | Vue.js     |         39 |          0 |          3 |         42 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/Class/childComps/TabContentDetail.vue    | Vue.js     |         32 |          0 |          3 |         35 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/Class/childComps/TabMenu.vue             | Vue.js     |         58 |          0 |          3 |         61 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/Home/Home.vue                            | Vue.js     |        156 |          7 |         20 |        183 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/Home/childComps/FeatureView.vue          | Vue.js     |         17 |          0 |          2 |         19 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/Home/childComps/HomeSwiper.vue           | Vue.js     |         27 |          0 |          2 |         29 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/Home/childComps/RecommendView.vue        | Vue.js     |         46 |          0 |          3 |         49 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/detail/Detail.vue                        | Vue.js     |        179 |         13 |         19 |        211 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/detail/childComps/DetailBottomBar.vue    | Vue.js     |         73 |          0 |          3 |         76 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/detail/childComps/DetailCommentInfo.vue  | Vue.js     |         86 |          0 |          3 |         89 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/detail/childComps/DetailGoodsInfo.vue    | Vue.js     |        107 |          0 |          4 |        111 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/detail/childComps/DetailInfo.vue         | Vue.js     |         35 |          0 |          2 |         37 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/detail/childComps/DetailNavBar.vue       | Vue.js     |         64 |          0 |          3 |         67 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/detail/childComps/DetailParamsInfo.vue   | Vue.js     |         49 |          0 |          2 |         51 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/detail/childComps/DetailShopInfo.vue     | Vue.js     |        114 |          0 |          2 |        116 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/detail/childComps/DetailSwiper.vue       | Vue.js     |         30 |          0 |          3 |         33 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/profile/Me.vue                           | Vue.js     |         24 |          0 |          4 |         28 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/profile/childComps/UserInfo.vue          | Vue.js     |         30 |          0 |          3 |         33 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/shopcart/childComps/CartBottomBar.vue    | Vue.js     |        128 |          0 |          8 |        136 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/shopcart/childComps/CartList.vue         | Vue.js     |         36 |          0 |          3 |         39 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/shopcart/childComps/cartListItem.vue     | Vue.js     |        139 |          4 |          5 |        148 |
+| /Users/huangwenxun/Desktop/vue框架/webstorm/mall/src/views/shopcart/shoppingcart.vue                | Vue.js     |         34 |          0 |          3 |         37 |
+| Total                                                                                             |            |      2,613 |         46 |        237 |      2,896 |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
